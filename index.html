@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звіти з лабораторних робіт</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Звіти з лабораторних робіт з дисципліни "WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ ОСНОВИ FRONTEND ТА BACKEND РОЗРОБОК"</h1>
+        <div class="student-info">
+            <p>Студент гр. № ІО-16 Павлуш Анастасія Юріївна</p>
+            <img src="img/photo.png" alt="Фото студента" height="100px">
+        </div>
+        <div class="lab-nav">
+            <div class="lab-info" onclick="showLab(1)">Лабораторна робота 1</div>
+            <div class="lab-info" onclick="showLab(2)">Лабораторна робота 2</div>
+            <div class="lab-info" onclick="showLab(3)">Лабораторна робота 3</div>
+            <div class="lab-info" onclick="showLab(4)">Лабораторна робота 4</div>
+            <div class="lab-info" onclick="showLab(5)">Лабораторна робота 5</div>
+            <div class="lab-info" onclick="showLab(6)">Лабораторна робота 6</div>
+            <div class="lab-info" onclick="showLab(7)">Лабораторна робота 7</div>
+            <div class="lab-info" onclick="showLab(8)">Лабораторна робота 8</div>
+        </div>
+        <div class="lab-content">
+            <div class="lab-block" id="lab1">
+                <h2>Лабораторна робота 1</h2>
+                <div class="ellipse" onclick="showInfo(1,1)"><p>Опис предметного середовища</p></div>
+                <div class="ellipse" onclick="showInfo(1,2)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
+                <div class="ellipse" onclick="showInfo(1,3)"><p>Структура документа</p></div>
+                <div class="ellipse" onclick="showInfo(1,4)"><p>Висновки</p></div>
+                
+            </div>
+            <div class="lab-block" id="lab2">
+                <h2>Лабораторна робота 2</h2>
+                <div class="ellipse" onclick="showInfo(2,1)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
+                <div class="ellipse" onclick="showInfo(2,2)"><p>Способи підключення стилів</p></div>
+                <div class="ellipse" onclick="showSubsection(1)"><p>Селектори</p></div>
+                <div class="subsection" id="subsection1">
+                    <div class="ellipse-small" onclick="showInfo(2,3)"><p>Селектори тегу</p></div>
+                    <div class="ellipse-small" onclick="showInfo(2,4)"><p>Селектори класу</p></div>
+                    <div class="ellipse-small" onclick="showInfo(2,5)"><p>Селектори ідентифікаторів</p></div>
+                </div>
+                <div class="ellipse" onclick="showInfo(2,6)"><p>CSS: Шрифти Текст Таблиці Фон Контур</p></div>
+                <div class="ellipse" onclick="showInfo(2,7)"><p>Висновки</p></div>
+            </div>
+            <div class="lab-block" id="lab3">
+                <h2>Лабораторна робота 3</h2>
+                <div class="ellipse" onclick="showInfo(3,1)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
+                <div class="ellipse" onclick="showInfo(3,2)"><p>Завдання 1</p></div>
+                <div class="ellipse" onclick="showSubsection(2)"><p>Завдання 2</p></div>
+                <div class="subsection" id="subsection2">
+                    <div class="ellipse-small" onclick="showInfo(3,3)"><p>Завдання 2: Фіксована таблична верстка</p></div>
+                    <div class="ellipse-small" onclick="showInfo(3,4)"><p>Завдання 2: Гумова таблична верстка</p></div>
+                    <div class="ellipse-small" onclick="showInfo(3,5)"><p>Завдання 2: Фіксована блокова верстка</p></div>
+                    <div class="ellipse-small" onclick="showInfo(3,6)"><p>Завдання 2: Гумова блокова верстка</p></div>
+                </div>
+
+                <div class="ellipse" onclick="showSubsection(3)"><p>Завдання 3: FLEXBOX</p></div>
+                <div class="subsection" id="subsection3">
+                    <div class="ellipse-small" onclick="showInfo(3,7)"><p>Завдання 3: Зовнішній вигляд сторінки</p></div>
+                    <div class="ellipse-small" onclick="showInfo(3,8)"><p>Завдання 3: HTML</p></div>
+                    <div class="ellipse-small" onclick="showInfo(3,9)"><p>Завдання 3: CSS</p></div>
+                </div>
+                <div class="ellipse" onclick="showInfo(3,10)"><p>Висновки</p></div>
+            </div>
+            <div class="lab-block" id="lab4">
+                <h2>Лабораторна робота 4</h2>
+                <div class="ellipse" onclick="showInfo(4,1)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
+                <div class="ellipse" onclick="showInfo(4,2)"><p>Адаптивна верстка</p></div>
+                <div class="ellipse" onclick="showSubsection(4)"><p>Завдання: адаптивна верстка</p></div>
+                <div class="subsection" id="subsection4">
+                    <div class="ellipse-small" onclick="showInfo(4,3)"><p>Десктопна версія</p></div>
+                    <div class="ellipse-small" onclick="showInfo(4,4)"><p>Планшетна версія</p></div>
+                    <div class="ellipse-small" onclick="showInfo(4,5)"><p>Мобільна версія</p></div>
+                </div>
+                <div class="ellipse" onclick="showInfo(4,6)"><p>Висновки</p></div>
+            </div>
+            <div class="lab-block" id="lab5">
+                <h2>Лабораторна робота 5</h2>
+                <div class="ellipse" onclick="showInfo(5,1)"><p>Постановка Задачі</p></div>
+                <div class="ellipse" onclick="showSubsection(5)"><p>Способи функціонального застосування JavaScript</p></div>
+                <div class="subsection" id="subsection5">
+                    <div class="ellipse-small" onclick="showInfo(5,2)"><p>Схема URL</p></div>
+                    <div class="ellipse-small" onclick="showInfo(5,3)"><p>Обробник подій</p></div>
+                    <div class="ellipse-small" onclick="showInfo(5,4)"><p>Підстанова(entity)</p></div>
+                    <div class="ellipse-small" onclick="showInfo(5,5)"><p>Вставка</p></div>
+                </div>
+                <div class="ellipse" onclick="showInfo(5,6)"><p>5.6</p></div>
+                <div class="ellipse" onclick="showInfo(5,7)"><p>5.7</p></div>
+                <div class="ellipse" onclick="showSubsection(6)"><p>Об'єкти, Callback functions</p></div>
+                <div class="subsection" id="subsection6">
+                    <div class="ellipse-small" onclick="showInfo(5,8)"><p>2</p></div>
+                    <div class="ellipse-small" onclick="showInfo(5,9)"><p>4</p></div>
+                    <div class="ellipse-small" onclick="showInfo(5,10)"><p>6</p></div>
+                    <div class="ellipse-small" onclick="showInfo(5,11)"><p>8</p></div>
+                    <div class="ellipse-small" onclick="showInfo(5,12)"><p>10</p></div>
+                </div>
+                <div class="ellipse" onclick="showInfo(5,13)"><p>ВИСНОВКИ</p></div>
+            </div>
+
+            <div class="content">
+                <div class="info-block" id="info1-1">
+                    <h3>Предметне середовище: <span>Предметним середовищем для лабораторної роботи є розробка веб-сайту для персонального блогу.
+                         Для цього використовується сучасний стек технологій, включаючи HTML, CSS і JavaScript для розробки фронтенду.
+                         Для управління версіями та спільної роботи над проєктом 
+                         використовується система контролю версій Git та хмарний сервіс GitHub.</span></h3>
+                </div>
+                <div class="info-block" id="info1-2">
+                    <h3>Тема: <span>СТРУКТУРА HTML-ДОКУМЕНТА. ВИБІР ПРЕДМЕТНОЇ ГАЛУЗІ.
+                        РОБОТА З ПОСИЛАННЯМИ, ТАБЛИЦЯМИ, ЗОБРАЖЕННЯМИ, СПИСКАМИ в
+                        HTML-ДОКУМЕНТІ.</span></h3>
+                    <h3>Мета: <span>придбати практичні навички роботи з HTML-документом, таблицями, ,
+                        зображеннями, посиланнями, списками, формами
+                        Створити шаблон звітного HTML-документом для відображення
+                        результатів роботи всіх лабораторних робіт.</span></h3>
+                    <h3>Сайт: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-1-2">https://github.com/pavlush16/my-web-app/tree/labs-1-2</a></span></h3>
+                </div>
+                <div class="info-block" id="info1-3">
+                    <h3>Структура html документа</h3>
+                    
+                </div>
+                <div class="info-block" id="info1-4">
+                    <h3>Висновок: <span>Написати висновок</span></h3>
+                </div>
+                <div class="info-block" id="info2-1">
+                    <h3>Тема: <span>КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ
+                        ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.</span></h3>
+                    <h3>Мета: <span>придбати практичні навички роботи з селекторами, ідентифікаторами,
+                        списками, різноманітними властивостями кольору і фону, зовнішними та
+                        внутрішними відступами, плаваючими елементами, оформленням текстових
+                        елементів</span></h3>
+                    <h3>Власний сайт: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-1-2">https://github.com/pavlush16/my-web-app/tree/labs-1-2</a></span></h3>
+                </div>
+                <div class="info-block" id="info2-2">
+                    <h3>Способи підключення стилів</h3>
+                    <p>Існує кілька способів підключення стилів до веб-сторінки:
+
+                        Вбудований CSS: Стилі можна вбудувати безпосередньо всередині HTML-документу, використовуючи тег <&lt;style&gt;> в розділі <&lt;head&gt;>.
+                        Зовнішній CSS: Стилі можна розмістити в окремому файлі CSS з розширенням .css, а потім підключити його до HTML-сторінки за допомогою тегу <&lt;link&gt;>.
+                        Inline CSS: Можна також задати стилі безпосередньо всередині тегів HTML за допомогою атрибуту style. </p>
+                </div>
+                <div class="info-block" id="info2-3">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info2-4">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info2-5">
+                    <p>...</p>
+                </div>
+                
+                <div class="info-block" id="info2-6">
+                    <p>...</p>  
+                </div>
+                <div class="info-block" id="info2-7">
+                    <h3>Висновок: <span>У ході цієї лабораторної роботи ми ознайомилися з різними способами підключення стилів до веб-сторінок 
+                        та їх застосування. Ми використовували вбудований CSS, зовнішні файли стилів та внутрішні стилі для задання вигляду елементів
+                         на сторінці. Також ми досліджували різноманітні селектори для точного визначення елементів, до яких ми застосовували стилі.
+                        Крім того, ми вивчили різні типи стилів, такі як кольори, шрифти, контури, фонові зображення та CSS-властивості для таблиць 
+                        та багаторівневих списків. Кожен з цих стилів може бути застосований для покращення зовнішнього вигляду веб-сторінки та забезпечення 
+                        кращого користувацького досвіду.
+                        У результаті лабораторної роботи ми набули розуміння того, як використовувати CSS для створення привабливого та функціонального дизайну веб-сторінок,
+                        а також як застосовувати ці стилі для різних елементів сторінки.</span></h3>
+                </div>
+
+
+                <div class="info-block" id="info3-1">
+                    <h3>Тема: <span>ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА. ВЕРСТКА
+                        ЗАСОБАМИ CSS та FLEXBOX.</span></h3>
+                    <h3>Мета: <span><br>⎯ придбати практичні навички роботи верстки сторінок засобами CSS, верстки на
+                        основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-
+                        сторінок
+                        <br>⎯ придбати практичні навички роботи верстки сторінок засобами CSS та FLEXBOX</span></h3>
+                    <h3>Сайт: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-3-4">https://github.com/pavlush16/my-web-app/tree/labs-3-4</a></span></h3>
+                </div>
+                <div class="info-block" id="info3-2">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info3-3">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info3-5">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info3-6">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info3-7">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info3-8">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info3-9">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info3-10">
+                    <h2>Переваги та недоліки створення веб-додатків за допомогою таблиць та блоків (плаваючих блоків)</h2>
+    
+                    <h3>За допомогою таблиць:</h3>
+                    <h4>Переваги:</h4>
+                    <ul>
+                        <li>Простота використання</li>
+                        <li>Підтримка старих браузерів</li>
+                    </ul>
+                    <h4>Недоліки:</h4>
+                    <ul>
+                        <li>Несемантичний код</li>
+                        <li>Важкість управління макетом</li>
+                    </ul>
+                
+                    <h3>За допомогою блоків (плаваючих блоків):</h3>
+                    <h4>Переваги:</h4>
+                    <ul>
+                        <li>Семантичний код</li>
+                        <li>Гнучкість та контроль</li>
+                    </ul>
+                    <h4>Недоліки:</h4>
+                    <ul>
+                        <li>Складність для початківців</li>
+                        <li>Потенційні проблеми з вирівнюванням та перекриттям</li>
+                    </ul>
+                    <h3>FLEXBOX</h3>
+                    <p>Робота з флексбоксами дозволяє зручно та ефективно організовувати розміщення елементів на веб-сторінці.<br>
+                         Основні переваги роботи з флексбоксами включають:<br>
+                        Гнучкість: Флексбокси дають можливість зручно розміщувати елементи у веб-дизайні, незалежно від їхнього розміру
+                        та порядку.
+                        Простота використання: Синтаксис флексбоксів легко зрозуміти та використовувати, що робить їх дружніми до розробників.<br>
+                        Вертикальне та горизонтальне центрування: Флексбокси забезпечують зручні засоби для центрування елементів як по вертикалі, так і по горизонталі.<br>
+                        Адаптивність: Флексбокси дозволяють легко створювати адаптивний веб-дизайн, що забезпечує правильне відображення сторінки на різних пристроях та розмірах екрану.<br>
+                        Порядок: Зміна порядку елементів за допомогою флексбоксів дозволяє створювати різноманітні макети та покращує доступність контенту для користувачів.<br>
+                        Незважаючи на ці переваги, робота з флексбоксами має також деякі недоліки:<br>
+                        Сумісність: Незважаючи на те, що більшість сучасних браузерів підтримують флексбокси, можуть виникати проблеми з сумісністю на старих версіях деяких браузерів.<br>
+                        Складність: Деякі аспекти флексбоксів, такі як управління просторами, можуть бути складні для реалізації у великих проектах.<br>
+                        У цілому, флексбокси є потужним інструментом для створення адаптивних та зручних макетів у веб-дизайні, які забезпечують гнучкість та ефективність у роботі з розміщенням елементів.</p>
+                </div>
+
+
+                <div class="info-block" id="info4-1">
+                    <h3>Тема: <span>АДАПТИВНА ВЕРСТКА. МЕДІА-ЗАПИТИ. МЕТАТЕГ VIEWPORT. СТРАТЕГІЯ MOBILE FIRST.</span></h3>
+                    <h3>Мета: <span>Адаптивна верстка. Медіа-запити. Медіа-типи. Медіа-функції.Метатег viewport. Інструменти розробника. Стратегія Mobile First. </span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-3-4">https://github.com/pavlush16/my-web-app/tree/labs-3-4</a></span></h3>
+                </div>
+                <div class="info-block" id="info4-2">
+                        <h2>Адаптивна верстка</h2>
+                        <p>Це підхід до розробки веб-сайтів, який забезпечує коректне відображення сторінок на різних пристроях та розмірах екрану.</p>
+                        <h2>Медіа-запити</h2>
+                        <p>Це CSS-стилі, які змінюють стилізацію веб-сторінки залежно від розміру екрану, типу пристрою та інших параметрів відображення.</p>
+                        <h2>Медіа-типи</h2>
+                        <p>Це типи пристроїв, на які можна застосовувати медіа-запити, такі як екран, друк, проголошення тощо.</p>
+                        <h2>Медіа-функції</h2>
+                        <p>Це функції в CSS, які дозволяють отримувати інформацію про пристрій, на якому відображається сторінка, наприклад, розмір екрану, орієнтацію, дозвіл тощо.</p>
+                        <h2>Метатег viewport</h2>
+                        <p>Це HTML-метатег, який контролює масштабування та зону видимості веб-сторінки на екрані мобільного пристрою.</p>
+                        <h2>Інструменти розробника</h2>
+                        <p>Це набір інструментів, які браузери надають для допомоги розробникам у відлагодженні, аналізі та вдосконаленні веб-сайтів.</p>
+                        <h2>Стратегія Mobile First</h2>
+                        <p>Це підхід до розробки веб-сайтів, який передбачає розробку спочатку для мобільних пристроїв, а потім розширення функціоналу для більших екранів.</p>               
+                </div>
+                <div class="info-block" id="info4-3">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info4-4">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info4-5">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info4-6">
+                    <h2>Висновок</h2>
+                    <p>Лабораторна робота з адаптивною версткою в HTML виявилася цікавою та корисною.Під час роботи було вивчено принципи створення адаптивних веб-сайтів, використання медіа-запитів та CSS-правил для адаптації контенту до різних типів пристроїв.</p>
+                    <p>Створення десктопної, планшетної та мобільної версій веб-сторінки вимагало ретельного планування та використання різних підходів до розміщення та оформлення елементів. Десктопна версія спрямована на великі екрани та має більш розгорнутий макет, планшетна версія адаптується до середніх розмірів екранів, тоді як мобільна версія оптимізована для використання на маленьких пристроях.</p>
+                    <p>Використання медіа-запитів дозволило змінювати оформлення сторінки в залежності від розміру екрану, що забезпечило коректне відображення контенту на різних пристроях. Додатково, стратегія "Mobile First" дозволила зосередитися на розробці мобільної версії веб-сторінки, забезпечуючи оптимальний досвід користувача для мобільних пристроїв.</p>
+                    <p>У результаті виконання лабораторної роботи було отримано практичні навички з адаптивної верстки веб-сторінок, які можуть бути використані для подальшого розвитку та покращення веб-проєктів.</p>
+                </div>
+
+
+                <div class="info-block" id="info5-1">
+                    <h3>Тема: <span>ФУНКЦІОНАЛЬНЕ ЗАСТОСУВАННЯ JAVASCRIPT У HTML-ДОКУМЕНТІ. 
+                        ВИКОРИСТАННЯ МАСИВІВ У JS-СЦЕНАРІЯХ. РЕАЛІЗАЦІЯ ПРОГРАМ ЗАСОВАМИ МОВИ JAVASCRIPT.
+                        ОБ'ЄКТ. МЕТОДИ ОБ'ЄКТА. МАСИВ ОБ'ЄКТІВ. ДЕСТРУКТУРИЗАЦІЯ ОБ'ЄКТІВ. CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ.</span></h3>
+                    <h3>Мета: <span>Придбати практичні навички роботи з масивами у js-сценаріях.  Реалізація програм засовами мови JAVASCRIPT.
+                        придбати практичні навички роботи з об'єктами. Методи об'єкта.. Callback. Стрілочні функції. Стрілочні функції як колбеки.
+                         Реалізація програм засовами мови JAVASCRIPT </span></h3>
+                </div>
+                <div class="info-block" id="info5-2">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-3">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-4">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-5">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-6">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-7">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-8">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-9">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-10">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-11">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-12">
+                    <p>...</p>
+                </div>
+                <div class="info-block" id="info5-13">
+                    <h2>Висновок</h2>
+                    <p>Виконані завдання в цій лабораторній роботі демонструють різні аспекти роботи з JavaScript, включаючи роботу з масивами, функціями та створенням інтерактивних елементів інтерфейсу.</p>
+                </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function showLab(labNumber) {
+            const labBlocks = document.querySelectorAll('.lab-block');
+            const infoBlocks = document.querySelectorAll('.info-block');
+            labBlocks.forEach(block => {
+                block.classList.remove('active');
+            });
+            infoBlocks.forEach(block => {
+                        block.classList.remove('active');
+                    });
+            document.getElementById('lab' + labNumber).classList.add('active');
+        }
+        function showInfo(infoNumber, contentNumber) {
+            const infoBlocks = document.querySelectorAll('.info-block');
+            infoBlocks.forEach(block => {
+                        block.classList.remove('active');
+                    });
+            document.getElementById(`info${infoNumber}-${contentNumber}`).classList.add('active');
+        }
+        function showSubsection(subsectionNumber) {
+            const subsection = document.getElementById('subsection' + subsectionNumber);
+            
+            if (subsection.classList.contains('active')) {
+                subsection.classList.remove('active'); 
+            } else {
+                const subsections = document.querySelectorAll('.subsection');
+                subsections.forEach(subsection => {
+                    subsection.classList.remove('active');
+                });
+                subsection.classList.add('active'); 
+            }
+        }
+    </script>
+</body>
+</html>
