@@ -136,3 +136,38 @@ table {
 .footer {
     background-color: lightblue;
 }
+
+.image-container {
+    width: 100%;
+    max-width: 600px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Центрування контейнера */
+    padding: 10px; /* Відступи навколо зображення */
+}
+
+.image-container img {
+    width: 100%; /* Зображення займає 100% ширини контейнера */
+    height: auto; /* Висота змінюється пропорційно до ширини */
+    display: block; /* Відміна відступів під зображенням */
+}
+
+.code-container {
+    background-color: #2d2d2d;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+code {
+    display: block;
+    color: #f8f8f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+pre {
+    margin: 0;
+}

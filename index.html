@@ -8,323 +8,697 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Звіти з лабораторних робіт з дисципліни "WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ ОСНОВИ FRONTEND ТА BACKEND РОЗРОБОК"</h1>
+        <h1 class="title">Звіти з виконаного особистого проекту з дисципліни "WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ ОСНОВИ FRONTEND ТА BACKEND РОЗРОБОК"</h1>
         <div class="student-info">
             <p>Студент гр. № ІО-16 Павлуш Анастасія Юріївна</p>
             <img src="img/photo.png" alt="Фото студента" height="100px">
         </div>
         <div class="lab-nav">
-            <div class="lab-info" onclick="showLab(1)">Лабораторна робота 1</div>
-            <div class="lab-info" onclick="showLab(2)">Лабораторна робота 2</div>
-            <div class="lab-info" onclick="showLab(3)">Лабораторна робота 3</div>
-            <div class="lab-info" onclick="showLab(4)">Лабораторна робота 4</div>
-            <div class="lab-info" onclick="showLab(5)">Лабораторна робота 5</div>
-            <div class="lab-info" onclick="showLab(6)">Лабораторна робота 6</div>
-            <div class="lab-info" onclick="showLab(7)">Лабораторна робота 7</div>
-            <div class="lab-info" onclick="showLab(8)">Лабораторна робота 8</div>
+            <div class="lab-info" onclick="showLab(1)">Lab1</div>
+            <div class="lab-info" onclick="showLab(2)">Lab2</div>
+            <div class="lab-info" onclick="showLab(3)">Lab3</div>
+            <div class="lab-info" onclick="showLab(4)">Lab4</div>
+            <div class="lab-info" onclick="showLab(5)">Lab5</div>
+            <div class="lab-info" onclick="showLab(6)">Lab6</div>
+            <div class="lab-info" onclick="showLab(7)">Lab7</div>
+            <div class="lab-info" onclick="showLab(8)">Lab8</div>
+            <div class="lab-info" onclick="showLab(9)">Lab9</div>
         </div>
         <div class="lab-content">
             <div class="lab-block" id="lab1">
                 <h2>Лабораторна робота 1</h2>
-                <div class="ellipse" onclick="showInfo(1,1)"><p>Опис предметного середовища</p></div>
-                <div class="ellipse" onclick="showInfo(1,2)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
+                <div class="ellipse" onclick="showInfo(1,1)"><p>Опис предметного середовища проекту</p></div>
+                <div class="ellipse" onclick="showInfo(1,2)"><p>Тема, мета, GitHub</p></div>
                 <div class="ellipse" onclick="showInfo(1,3)"><p>Структура документа</p></div>
                 <div class="ellipse" onclick="showInfo(1,4)"><p>Висновки</p></div>
-                
             </div>
             <div class="lab-block" id="lab2">
                 <h2>Лабораторна робота 2</h2>
-                <div class="ellipse" onclick="showInfo(2,1)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
-                <div class="ellipse" onclick="showInfo(2,2)"><p>Способи підключення стилів</p></div>
-                <div class="ellipse" onclick="showSubsection(1)"><p>Селектори</p></div>
-                <div class="subsection" id="subsection1">
-                    <div class="ellipse-small" onclick="showInfo(2,3)"><p>Селектори тегу</p></div>
-                    <div class="ellipse-small" onclick="showInfo(2,4)"><p>Селектори класу</p></div>
-                    <div class="ellipse-small" onclick="showInfo(2,5)"><p>Селектори ідентифікаторів</p></div>
-                </div>
-                <div class="ellipse" onclick="showInfo(2,6)"><p>CSS: Шрифти Текст Таблиці Фон Контур</p></div>
-                <div class="ellipse" onclick="showInfo(2,7)"><p>Висновки</p></div>
+                <div class="ellipse" onclick="showInfo(2,1)"><p>Тема, мета, GitHub</p></div>
+                <div class="ellipse" onclick="showInfo(2,2)"><p>Фрагменти коду</p></div>
+                <div class="ellipse" onclick="showInfo(2,3)"><p>Висновки</p></div>
             </div>
             <div class="lab-block" id="lab3">
                 <h2>Лабораторна робота 3</h2>
-                <div class="ellipse" onclick="showInfo(3,1)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
-                <div class="ellipse" onclick="showInfo(3,2)"><p>Завдання 1</p></div>
-                <div class="ellipse" onclick="showSubsection(2)"><p>Завдання 2</p></div>
-                <div class="subsection" id="subsection2">
-                    <div class="ellipse-small" onclick="showInfo(3,3)"><p>Завдання 2: Фіксована таблична верстка</p></div>
-                    <div class="ellipse-small" onclick="showInfo(3,4)"><p>Завдання 2: Гумова таблична верстка</p></div>
-                    <div class="ellipse-small" onclick="showInfo(3,5)"><p>Завдання 2: Фіксована блокова верстка</p></div>
-                    <div class="ellipse-small" onclick="showInfo(3,6)"><p>Завдання 2: Гумова блокова верстка</p></div>
-                </div>
-
-                <div class="ellipse" onclick="showSubsection(3)"><p>Завдання 3: FLEXBOX</p></div>
-                <div class="subsection" id="subsection3">
-                    <div class="ellipse-small" onclick="showInfo(3,7)"><p>Завдання 3: Зовнішній вигляд сторінки</p></div>
-                    <div class="ellipse-small" onclick="showInfo(3,8)"><p>Завдання 3: HTML</p></div>
-                    <div class="ellipse-small" onclick="showInfo(3,9)"><p>Завдання 3: CSS</p></div>
-                </div>
-                <div class="ellipse" onclick="showInfo(3,10)"><p>Висновки</p></div>
+                <div class="ellipse" onclick="showInfo(3,1)"><p>Тема, мета, GitHub</p></div>
+                <div class="ellipse" onclick="showInfo(3,2)"><p>Фрагменти коду</p></div>
+                <div class="ellipse" onclick="showInfo(3,3)"><p>Висновки</p></div>
             </div>
             <div class="lab-block" id="lab4">
                 <h2>Лабораторна робота 4</h2>
-                <div class="ellipse" onclick="showInfo(4,1)"><p>Тема, мета ЛР, Місце розташування сайту</p></div>
-                <div class="ellipse" onclick="showInfo(4,2)"><p>Адаптивна верстка</p></div>
-                <div class="ellipse" onclick="showSubsection(4)"><p>Завдання: адаптивна верстка</p></div>
-                <div class="subsection" id="subsection4">
-                    <div class="ellipse-small" onclick="showInfo(4,3)"><p>Десктопна версія</p></div>
-                    <div class="ellipse-small" onclick="showInfo(4,4)"><p>Планшетна версія</p></div>
-                    <div class="ellipse-small" onclick="showInfo(4,5)"><p>Мобільна версія</p></div>
-                </div>
-                <div class="ellipse" onclick="showInfo(4,6)"><p>Висновки</p></div>
+                <div class="ellipse" onclick="showInfo(4,1)"><p>Тема, мета, GitHub</p></div>
+                <div class="ellipse" onclick="showInfo(4,2)"><p>Фрагменти коду</p></div>
+                <div class="ellipse" onclick="showInfo(4,3)"><p>Висновки</p></div>
             </div>
             <div class="lab-block" id="lab5">
                 <h2>Лабораторна робота 5</h2>
-                <div class="ellipse" onclick="showInfo(5,1)"><p>Постановка Задачі</p></div>
-                <div class="ellipse" onclick="showSubsection(5)"><p>Способи функціонального застосування JavaScript</p></div>
-                <div class="subsection" id="subsection5">
-                    <div class="ellipse-small" onclick="showInfo(5,2)"><p>Схема URL</p></div>
-                    <div class="ellipse-small" onclick="showInfo(5,3)"><p>Обробник подій</p></div>
-                    <div class="ellipse-small" onclick="showInfo(5,4)"><p>Підстанова(entity)</p></div>
-                    <div class="ellipse-small" onclick="showInfo(5,5)"><p>Вставка</p></div>
-                </div>
-                <div class="ellipse" onclick="showInfo(5,6)"><p>5.6</p></div>
-                <div class="ellipse" onclick="showInfo(5,7)"><p>5.7</p></div>
-                <div class="ellipse" onclick="showSubsection(6)"><p>Об'єкти, Callback functions</p></div>
-                <div class="subsection" id="subsection6">
-                    <div class="ellipse-small" onclick="showInfo(5,8)"><p>2</p></div>
-                    <div class="ellipse-small" onclick="showInfo(5,9)"><p>4</p></div>
-                    <div class="ellipse-small" onclick="showInfo(5,10)"><p>6</p></div>
-                    <div class="ellipse-small" onclick="showInfo(5,11)"><p>8</p></div>
-                    <div class="ellipse-small" onclick="showInfo(5,12)"><p>10</p></div>
-                </div>
-                <div class="ellipse" onclick="showInfo(5,13)"><p>ВИСНОВКИ</p></div>
+                <div class="ellipse" onclick="showInfo(5,1)"><p>Тема, мета, GitHub</p></div>
+                <div class="ellipse" onclick="showInfo(5,2)"><p>Фрагменти коду</p></div>
+                <div class="ellipse" onclick="showInfo(5,3)"><p>Висновки</p></div>
+            </div>
+            <div class="lab-block" id="lab6">
+                <h2>Лабораторна робота 6</h2>
+                <div class="ellipse" onclick="showInfo(6,1)"><p>Тема, мета, GitHub</p></div>
+                <div class="ellipse" onclick="showInfo(6,2)"><p>Фрагменти коду</p></div>
+                <div class="ellipse" onclick="showInfo(6,3)"><p>Висновки</p></div>
+            </div>
+            <div class="lab-block" id="lab7">
+                <h2>Лабораторна робота 7</h2>
+                <div class="ellipse" onclick="showInfo(7,1)"><p>Тема, мета, GitHub</p></div>
+                <div class="ellipse" onclick="showInfo(7,2)"><p>Фрагменти коду</p></div>
+                <div class="ellipse" onclick="showInfo(7,3)"><p>Висновки</p></div>
+            </div>
+            <div class="lab-block" id="lab8">
+                <h2>Лабораторна робота 8</h2>
+                <div class="ellipse" onclick="showInfo(8,1)"><p>Сертифікат</p></div>
+                <div class="ellipse" onclick="showInfo(8,2)"><p>Тиждень 1</p></div>
+                <div class="ellipse" onclick="showInfo(8,3)"><p>Тиждень 2</p></div>
+                <div class="ellipse" onclick="showInfo(8,4)"><p>Тиждень 3</p></div>
+                <div class="ellipse" onclick="showInfo(8,5)"><p>Тиждень 4</p></div>
+            </div>
+            <div class="lab-block" id="lab9">
+                <h2>Лабораторна робота 9</h2>
+                <div class="ellipse" onclick="showInfo(9,1)"><p>Сертифікат</p></div>
+                <div class="ellipse" onclick="showInfo(9,2)"><p>Тиждень 1</p></div>
+                <div class="ellipse" onclick="showInfo(9,3)"><p>Тиждень 2</p></div>
+                <div class="ellipse" onclick="showInfo(9,4)"><p>Тиждень 3</p></div>
             </div>
 
             <div class="content">
+                <!-- Лабораторна робота 1 -->
                 <div class="info-block" id="info1-1">
-                    <h3>Предметне середовище: <span>Предметним середовищем для лабораторної роботи є розробка веб-сайту для персонального блогу.
+                    <h3>Предметне середовище: <span>Предметним середовищем для цього проекту є розробка веб-сайту для персонального блогу.
                          Для цього використовується сучасний стек технологій, включаючи HTML, CSS і JavaScript для розробки фронтенду.
                          Для управління версіями та спільної роботи над проєктом 
-                         використовується система контролю версій Git та хмарний сервіс GitHub.</span></h3>
+                         використовується система контролю версій Git та хмарний сервіс GitHub.
+                        Для розробки бекенду використовується NodeJs та Express</span></h3>
                 </div>
                 <div class="info-block" id="info1-2">
                     <h3>Тема: <span>СТРУКТУРА HTML-ДОКУМЕНТА. ВИБІР ПРЕДМЕТНОЇ ГАЛУЗІ.
                         РОБОТА З ПОСИЛАННЯМИ, ТАБЛИЦЯМИ, ЗОБРАЖЕННЯМИ, СПИСКАМИ в
                         HTML-ДОКУМЕНТІ.</span></h3>
-                    <h3>Мета: <span>придбати практичні навички роботи з HTML-документом, таблицями, ,
+                    <h3>Мета: <span>придбати практичні навички роботи з HTML-документом, таблицями,
                         зображеннями, посиланнями, списками, формами
                         Створити шаблон звітного HTML-документом для відображення
                         результатів роботи всіх лабораторних робіт.</span></h3>
-                    <h3>Сайт: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-1-2">https://github.com/pavlush16/my-web-app/tree/labs-1-2</a></span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/main">https://github.com/pavlush16/my-web-app/tree/main</a></span></h3>
                 </div>
                 <div class="info-block" id="info1-3">
                     <h3>Структура html документа</h3>
-                    
+                    <div class="code-container">
+                        <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+    &lt;head&gt;
+
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+    &lt;meta name="description" content=""&gt;
+    &lt;meta name="author" content=""&gt;
+
+    &lt;title&gt;BlogHub&lt;/title&gt;
+
+    &lt;!-- Core CSS --&gt;
+    &lt;link href=&quot;/css/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;!-- Custom fonts for this template --&gt;
+    &lt;link href=&quot;/vendor/font-awesome/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+    &lt;link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'&gt;
+    &lt;link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'&gt;
+
+    &lt;!-- Custom styles for this template --&gt;
+    &lt;link href=&quot;/css/bloghub.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+
+    &lt;/head&gt;
+
+    &lt;body&gt;
+
+    &lt;!-- Navigation --&gt;
+    &lt;nav class=&quot;navbar navbar-expand-lg navbar-light fixed-top&quot; id=&quot;mainNav&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+        &lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;BlogHub&lt;/a&gt;
+        &lt;button class=&quot;navbar-toggler navbar-toggler-right&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarResponsive&quot; aria-controls=&quot;navbarResponsive&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+            Menu
+            &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarResponsive&quot;&gt;
+            &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;/posts/new&quot;&gt;New post&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;/about&quot;&gt;About&lt;/a&gt;
+            &lt;/li&gt;
+            @if(!auth)
+                &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;/auth/register&quot;&gt;Register&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;/auth/login&quot;&gt;Login&lt;/a&gt;
+                &lt;/li&gt;
+            @else
+            &lt;li class=&quot;nav-item&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;/auth/logout&quot;&gt;Logout&lt;/a&gt;
+            &lt;/li&gt;
+            @endif
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+
+    @!section('content')
+
+    &lt;!-- Footer --&gt;
+    &lt;footer&gt;
+        &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-lg-8 col-md-10 mx-auto&quot;&gt;
+            &lt;ul class=&quot;list-inline text-center&quot;&gt;
+                &lt;li class=&quot;list-inline-item&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;
+                    &lt;span class=&quot;fa-stack fa-lg&quot;&gt;
+                    &lt;i class=&quot;fa fa-circle fa-stack-2x&quot;&gt;&lt;/i&gt;
+                    &lt;i class=&quot;fa fa-twitter fa-stack-1x fa-inverse&quot;&gt;&lt;/i&gt;
+                    &lt;/span&gt;
+                &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-inline-item&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;
+                    &lt;span class=&quot;fa-stack fa-lg&quot;&gt;
+                    &lt;i class=&quot;fa fa-circle fa-stack-2x&quot;&gt;&lt;/i&gt;
+                    &lt;i class=&quot;fa fa-facebook fa-stack-1x fa-inverse&quot;&gt;&lt;/i&gt;
+                    &lt;/span&gt;
+                &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;list-inline-item&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;
+                    &lt;span class=&quot;fa-stack fa-lg&quot;&gt;
+                    &lt;i class=&quot;fa fa-circle fa-stack-2x&quot;&gt;&lt;/i&gt;
+                    &lt;i class=&quot;fa fa-github fa-stack-1x fa-inverse&quot;&gt;&lt;/i&gt;
+                    &lt;/span&gt;
+                &lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;p class=&quot;copyright text-muted&quot;&gt;Copyright &amp;copy; BlogHub 2024&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+
+    &lt;!-- Core JavaScript --&gt;
+    &lt;script src=&quot;/vendor/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/vendor/bootstrap/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+
+    @!section('scripts')
+
+    &lt;!-- Custom scripts for this template --&gt;
+    &lt;script src=&quot;/js/bloghub.js&quot;&gt;&lt;/script&gt;
+
+    &lt;/body&gt;
+
+&lt;/html&gt;
+                        </code></pre>
+                    </div>
                 </div>
                 <div class="info-block" id="info1-4">
-                    <h3>Висновок: <span>Написати висновок</span></h3>
+                    <h3>Висновок:</h3>
+                    <p>
+                        У процесі виконання роботи було здобуто практичні навички роботи з HTML-документами, зокрема зі структурою
+                         документів, таблицями, зображеннями, посиланнями, списками та формами. Створено шаблон звітного HTML-документа, 
+                         який ефективно відображає результати всіх лабораторних робіт. Цей шаблон містить усі необхідні елементи для 
+                         представлення інформації в зручному та структурованому вигляді, що сприяє кращому розумінню та аналізу виконаних 
+                         завдань. Результати роботи підтверджують вміння створювати і оформлювати HTML-документи для різних цілей, 
+                         підвищуючи загальну компетентність у веб-розробці.
+                    </p>
                 </div>
+
+                <!-- Лабораторна робота 2 -->
                 <div class="info-block" id="info2-1">
-                    <h3>Тема: <span>КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ
+                    <h3>Тема: <span>КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ 
                         ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.</span></h3>
-                    <h3>Мета: <span>придбати практичні навички роботи з селекторами, ідентифікаторами,
-                        списками, різноманітними властивостями кольору і фону, зовнішними та
-                        внутрішними відступами, плаваючими елементами, оформленням текстових
-                        елементів</span></h3>
-                    <h3>Власний сайт: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-1-2">https://github.com/pavlush16/my-web-app/tree/labs-1-2</a></span></h3>
+                    <h3>Мета: <span>придбати практичні навички роботи  з селекторами, ідентифікаторами, 
+                        списками,  різноманітними властивостями кольору і фону,  зовнішними та внутрішними  
+                        відступами,  плаваючими елементами, оформленням текстових елементів</span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/main">https://github.com/pavlush16/my-web-app/tree/main</a></span></h3>
                 </div>
                 <div class="info-block" id="info2-2">
-                    <h3>Способи підключення стилів</h3>
-                    <p>Існує кілька способів підключення стилів до веб-сторінки:
+                    <h3>Фрагменти коду</h3>
+                    <div class="code-container">
+                        <pre><code>
+body {
+    font-size: 20px;
+    color: #212529;
+    font-family: Lora, 'Times New Roman', serif;
+}
 
-                        Вбудований CSS: Стилі можна вбудувати безпосередньо всередині HTML-документу, використовуючи тег <&lt;style&gt;> в розділі <&lt;head&gt;>.
-                        Зовнішній CSS: Стилі можна розмістити в окремому файлі CSS з розширенням .css, а потім підключити його до HTML-сторінки за допомогою тегу <&lt;link&gt;>.
-                        Inline CSS: Можна також задати стилі безпосередньо всередині тегів HTML за допомогою атрибуту style. </p>
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #212529;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+
+a:focus, a:hover {
+    color: #0085a1;
+}
+
+blockquote {
+    font-style: italic;
+    color: #868e96;
+}
+
+.section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.caption {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #0085a1;
+    text-shadow: none;
+}
+
+::selection {
+    color: #fff;
+    background: #0085a1;
+    text-shadow: none;
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+                        </code></pre>
                 </div>
+            </div>
                 <div class="info-block" id="info2-3">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info2-4">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info2-5">
-                    <p>...</p>
-                </div>
-                
-                <div class="info-block" id="info2-6">
-                    <p>...</p>  
-                </div>
-                <div class="info-block" id="info2-7">
-                    <h3>Висновок: <span>У ході цієї лабораторної роботи ми ознайомилися з різними способами підключення стилів до веб-сторінок 
-                        та їх застосування. Ми використовували вбудований CSS, зовнішні файли стилів та внутрішні стилі для задання вигляду елементів
-                         на сторінці. Також ми досліджували різноманітні селектори для точного визначення елементів, до яких ми застосовували стилі.
-                        Крім того, ми вивчили різні типи стилів, такі як кольори, шрифти, контури, фонові зображення та CSS-властивості для таблиць 
-                        та багаторівневих списків. Кожен з цих стилів може бути застосований для покращення зовнішнього вигляду веб-сторінки та забезпечення 
-                        кращого користувацького досвіду.
-                        У результаті лабораторної роботи ми набули розуміння того, як використовувати CSS для створення привабливого та функціонального дизайну веб-сторінок,
-                        а також як застосовувати ці стилі для різних елементів сторінки.</span></h3>
+                    <h3>Висновок:</h3>
+                    <p>
+                        У ході цієї лабораторної роботи ми здобули практичні навички роботи з CSS-селекторами та ідентифікаторами, що дозволило нам більш ефективно та точно застосовувати стилі до HTML-елементів. Ми навчилися задавати різні властивості кольору та фону, а також працювати з відступами та плаваючими елементами. Особливу увагу було приділено оформленню текстових елементів, що покращило загальний вигляд веб-сторінок.
+                    </p>
                 </div>
 
-
+                <!-- Лабораторна робота 3 -->
                 <div class="info-block" id="info3-1">
-                    <h3>Тема: <span>ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА. ВЕРСТКА
-                        ЗАСОБАМИ CSS та FLEXBOX.</span></h3>
-                    <h3>Мета: <span><br>⎯ придбати практичні навички роботи верстки сторінок засобами CSS, верстки на
-                        основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-
-                        сторінок
-                        <br>⎯ придбати практичні навички роботи верстки сторінок засобами CSS та FLEXBOX</span></h3>
-                    <h3>Сайт: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-3-4">https://github.com/pavlush16/my-web-app/tree/labs-3-4</a></span></h3>
+                    <h3>Тема: <span>ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА.  ВЕРСТКА ЗАСОБАМИ CSS та FLEXBOX.</span></h3>
+                    <h3>Мета: <span>Придбати практичні навички роботи  верстки сторінок засобами CSS, верстки на основі 
+                        плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-сторінок.
+                        Придбати практичні навички роботи  верстки сторінок засобами CSS та FLEXBOX</span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/main">https://github.com/pavlush16/my-web-app/tree/main</a></span></h3>
                 </div>
                 <div class="info-block" id="info3-2">
-                    <p>...</p>
+                    <h3>Фрагменти коду</h3>
+                    <div class="code-container">
+                        <pre><code>
+body {
+    font-size: 20px;
+    color: #212529;
+    font-family: Lora, 'Times New Roman', serif;
+}
+
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #212529;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+
+a:focus, a:hover {
+    color: #0085a1;
+}
+
+blockquote {
+    font-style: italic;
+    color: #868e96;
+}
+
+.section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.caption {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #0085a1;
+    text-shadow: none;
+}
+
+::selection {
+    color: #fff;
+    background: #0085a1;
+    text-shadow: none;
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+                        </code></pre>        
+                    </div>
                 </div>
+            </div>
                 <div class="info-block" id="info3-3">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info3-5">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info3-6">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info3-7">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info3-8">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info3-9">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info3-10">
-                    <h2>Переваги та недоліки створення веб-додатків за допомогою таблиць та блоків (плаваючих блоків)</h2>
-    
-                    <h3>За допомогою таблиць:</h3>
-                    <h4>Переваги:</h4>
-                    <ul>
-                        <li>Простота використання</li>
-                        <li>Підтримка старих браузерів</li>
-                    </ul>
-                    <h4>Недоліки:</h4>
-                    <ul>
-                        <li>Несемантичний код</li>
-                        <li>Важкість управління макетом</li>
-                    </ul>
-                
-                    <h3>За допомогою блоків (плаваючих блоків):</h3>
-                    <h4>Переваги:</h4>
-                    <ul>
-                        <li>Семантичний код</li>
-                        <li>Гнучкість та контроль</li>
-                    </ul>
-                    <h4>Недоліки:</h4>
-                    <ul>
-                        <li>Складність для початківців</li>
-                        <li>Потенційні проблеми з вирівнюванням та перекриттям</li>
-                    </ul>
-                    <h3>FLEXBOX</h3>
-                    <p>Робота з флексбоксами дозволяє зручно та ефективно організовувати розміщення елементів на веб-сторінці.<br>
-                         Основні переваги роботи з флексбоксами включають:<br>
-                        Гнучкість: Флексбокси дають можливість зручно розміщувати елементи у веб-дизайні, незалежно від їхнього розміру
-                        та порядку.
-                        Простота використання: Синтаксис флексбоксів легко зрозуміти та використовувати, що робить їх дружніми до розробників.<br>
-                        Вертикальне та горизонтальне центрування: Флексбокси забезпечують зручні засоби для центрування елементів як по вертикалі, так і по горизонталі.<br>
-                        Адаптивність: Флексбокси дозволяють легко створювати адаптивний веб-дизайн, що забезпечує правильне відображення сторінки на різних пристроях та розмірах екрану.<br>
-                        Порядок: Зміна порядку елементів за допомогою флексбоксів дозволяє створювати різноманітні макети та покращує доступність контенту для користувачів.<br>
-                        Незважаючи на ці переваги, робота з флексбоксами має також деякі недоліки:<br>
-                        Сумісність: Незважаючи на те, що більшість сучасних браузерів підтримують флексбокси, можуть виникати проблеми з сумісністю на старих версіях деяких браузерів.<br>
-                        Складність: Деякі аспекти флексбоксів, такі як управління просторами, можуть бути складні для реалізації у великих проектах.<br>
-                        У цілому, флексбокси є потужним інструментом для створення адаптивних та зручних макетів у веб-дизайні, які забезпечують гнучкість та ефективність у роботі з розміщенням елементів.</p>
+                    <h3>Висновок:</h3>
+                    <p>
+                        Під час цієї лабораторної роботи ми придбали навички верстки сторінок за допомогою CSS та Flexbox. Вивчили основи блокової верстки та верстки на основі плаваючих елементів. Це дало нам змогу зрозуміти переваги та недоліки різних типів макетів веб-сторінок, що є важливим для створення адаптивних та зручних у користуванні веб-інтерфейсів.
+                    </p>
                 </div>
 
-
+                <!-- Лабораторна робота 4 -->
                 <div class="info-block" id="info4-1">
                     <h3>Тема: <span>АДАПТИВНА ВЕРСТКА. МЕДІА-ЗАПИТИ. МЕТАТЕГ VIEWPORT. СТРАТЕГІЯ MOBILE FIRST.</span></h3>
-                    <h3>Мета: <span>Адаптивна верстка. Медіа-запити. Медіа-типи. Медіа-функції.Метатег viewport. Інструменти розробника. Стратегія Mobile First. </span></h3>
-                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/labs-3-4">https://github.com/pavlush16/my-web-app/tree/labs-3-4</a></span></h3>
+                    <h3>Мета: <span> Адаптивна верстка. Медіа-запити. Медіа-типи. Медіа-функції.Метатег viewport. 
+                        Інструменти розробника. Стратегія Mobile First.</span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/main">https://github.com/pavlush16/my-web-app/tree/main</a></span></h3>
                 </div>
                 <div class="info-block" id="info4-2">
-                        <h2>Адаптивна верстка</h2>
-                        <p>Це підхід до розробки веб-сайтів, який забезпечує коректне відображення сторінок на різних пристроях та розмірах екрану.</p>
-                        <h2>Медіа-запити</h2>
-                        <p>Це CSS-стилі, які змінюють стилізацію веб-сторінки залежно від розміру екрану, типу пристрою та інших параметрів відображення.</p>
-                        <h2>Медіа-типи</h2>
-                        <p>Це типи пристроїв, на які можна застосовувати медіа-запити, такі як екран, друк, проголошення тощо.</p>
-                        <h2>Медіа-функції</h2>
-                        <p>Це функції в CSS, які дозволяють отримувати інформацію про пристрій, на якому відображається сторінка, наприклад, розмір екрану, орієнтацію, дозвіл тощо.</p>
-                        <h2>Метатег viewport</h2>
-                        <p>Це HTML-метатег, який контролює масштабування та зону видимості веб-сторінки на екрані мобільного пристрою.</p>
-                        <h2>Інструменти розробника</h2>
-                        <p>Це набір інструментів, які браузери надають для допомоги розробникам у відлагодженні, аналізі та вдосконаленні веб-сайтів.</p>
-                        <h2>Стратегія Mobile First</h2>
-                        <p>Це підхід до розробки веб-сайтів, який передбачає розробку спочатку для мобільних пристроїв, а потім розширення функціоналу для більших екранів.</p>               
+                    <h3>Фрагменти коду</h3>
+                    <div class="code-container">
+                        <pre><code>
+@media only screen and (min-width: 992px) {
+    #mainNav {
+        border-bottom: 1px solid transparent;
+        background: 0 0;
+    }
+
+    #mainNav .navbar-brand {
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a {
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+        color: rgba(255, 255, 255, .8);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+        padding: 200px 0;
+    }
+
+    header.masthead .page-heading h1, header.masthead .site-heading h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header.masthead .post-heading h1 {
+        font-size: 55px;
+    }
+
+    header.masthead .post-heading .subheading {
+        font-size: 30px;
+    }
+}                            
+                        </code></pre>        
+                    </div>
                 </div>
                 <div class="info-block" id="info4-3">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info4-4">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info4-5">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info4-6">
-                    <h2>Висновок</h2>
-                    <p>Лабораторна робота з адаптивною версткою в HTML виявилася цікавою та корисною.Під час роботи було вивчено принципи створення адаптивних веб-сайтів, використання медіа-запитів та CSS-правил для адаптації контенту до різних типів пристроїв.</p>
-                    <p>Створення десктопної, планшетної та мобільної версій веб-сторінки вимагало ретельного планування та використання різних підходів до розміщення та оформлення елементів. Десктопна версія спрямована на великі екрани та має більш розгорнутий макет, планшетна версія адаптується до середніх розмірів екранів, тоді як мобільна версія оптимізована для використання на маленьких пристроях.</p>
-                    <p>Використання медіа-запитів дозволило змінювати оформлення сторінки в залежності від розміру екрану, що забезпечило коректне відображення контенту на різних пристроях. Додатково, стратегія "Mobile First" дозволила зосередитися на розробці мобільної версії веб-сторінки, забезпечуючи оптимальний досвід користувача для мобільних пристроїв.</p>
-                    <p>У результаті виконання лабораторної роботи було отримано практичні навички з адаптивної верстки веб-сторінок, які можуть бути використані для подальшого розвитку та покращення веб-проєктів.</p>
+                    <h3>Висновок:</h3>
+                    <p>
+                        Ця лабораторна робота допомогла нам зрозуміти основи адаптивної верстки та важливість використання медіа-запитів. Ми навчилися використовувати метатег viewport для забезпечення коректного відображення сторінок на різних пристроях. Стратегія Mobile First дозволила нам створювати веб-сторінки, що перш за все орієнтовані на мобільні пристрої, що є важливим в сучасному веб-дизайні.
+                    </p>
                 </div>
 
-
+                <!-- Лабораторна робота 5 -->
                 <div class="info-block" id="info5-1">
                     <h3>Тема: <span>ФУНКЦІОНАЛЬНЕ ЗАСТОСУВАННЯ JAVASCRIPT У HTML-ДОКУМЕНТІ. 
-                        ВИКОРИСТАННЯ МАСИВІВ У JS-СЦЕНАРІЯХ. РЕАЛІЗАЦІЯ ПРОГРАМ ЗАСОВАМИ МОВИ JAVASCRIPT.
-                        ОБ'ЄКТ. МЕТОДИ ОБ'ЄКТА. МАСИВ ОБ'ЄКТІВ. ДЕСТРУКТУРИЗАЦІЯ ОБ'ЄКТІВ. CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ.</span></h3>
-                    <h3>Мета: <span>Придбати практичні навички роботи з масивами у js-сценаріях.  Реалізація програм засовами мови JAVASCRIPT.
-                        придбати практичні навички роботи з об'єктами. Методи об'єкта.. Callback. Стрілочні функції. Стрілочні функції як колбеки.
-                         Реалізація програм засовами мови JAVASCRIPT </span></h3>
+                        ВИКОРИСТАННЯ МАСИВІВ У JS-СЦЕНАРІЯХ. РЕАЛІЗАЦІЯ ПРОГРАМ ЗАСОВАМИ МОВИ JAVASCRIPT</span></h3>
+                    <h3>Мета: <span>придбати практичні навички роботи з масивами у js-сценаріях.  
+                        Реалізація програм засовами мови JAVASCRIPT.</span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/main">https://github.com/pavlush16/my-web-app/tree/main</a></span></h3>
+
                 </div>
                 <div class="info-block" id="info5-2">
-                    <p>...</p>
+                    <h3>Фрагменти коду</h3>
+                    <div class="code-container">
+                        <pre><code>
+// Масиви можна використовувати для зберігання даних та виконання операцій з ними.
+var myArray = [1, 2, 3, 4, 5];
+var sum = myArray.reduce(function (a, b) {
+    return a + b;
+}, 0);
+console.log(sum); // Результат: 15                            
+                        </code></pre>        
+                    </div>
                 </div>
                 <div class="info-block" id="info5-3">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-4">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-5">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-6">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-7">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-8">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-9">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-10">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-11">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-12">
-                    <p>...</p>
-                </div>
-                <div class="info-block" id="info5-13">
-                    <h2>Висновок</h2>
-                    <p>Виконані завдання в цій лабораторній роботі демонструють різні аспекти роботи з JavaScript, включаючи роботу з масивами, функціями та створенням інтерактивних елементів інтерфейсу.</p>
+                    <h3>Висновок:</h3>
+                    <p>
+                        На цій лабораторній роботі ми придбали практичні навички роботи з масивами у JavaScript-сценаріях. Це дало змогу реалізовувати різноманітні функціональні можливості на веб-сторінках. Ми навчилися писати програми мовою JavaScript, що дозволило додавати інтерактивність та динамічність до веб-документів.
+                    </p>
                 </div>
 
+                <!-- Лабораторна робота 6 -->
+                <div class="info-block" id="info6-1">
+                    <h3>Тема: <span>КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. 
+                        ДЕЛЕГУВАННЯ ПОДІЙ. THROTTLE. МОДУЛЬНОСТЬ КОДУ.</span></h3>
+                    <h3>Мета: <span>придбати практичні навички роботи з об'єктами. Методи об'єкта. 
+                        Callback. Стрілочні функції. Стрілочні функції як колбеки.
+                        Реалізація програм засовами мови JAVASCRIPT</span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/main">https://github.com/pavlush16/my-web-app/tree/main</a></span></h3>
+                </div>
+                <div class="info-block" id="info6-2">
+                    <h3>Фрагменти коду</h3>
+                    <div class="code-container">
+                        <pre><code>
+// Класи дозволяють створювати об'єкти з властивостями та методами.
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    greet() {
+        return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+    }
+}
+
+let person1 = new Person('Alice', 25);
+console.log(person1.greet()); // Результат: Hello, my name is Alice and I am 25 years old.
+                        </code></pre>        
+                    </div>
+                </div>
+                <div class="info-block" id="info6-3">
+                    <h3>Висновок:</h3>
+                    <p>
+                        У ході цієї лабораторної роботи ми вивчили роботу з класами та об'єктами в JavaScript, а також поглибили знання про об'єктну модель документа (DOM). Здобули навички роботи з подіями та делегуванням подій, що дозволило нам ефективно обробляти взаємодії користувачів з веб-сторінками. Також ми ознайомилися з техніками throttle та модульністю коду, що покращило структуру та продуктивність наших скриптів.
+                    </p>
+                </div>
+                <!-- Лабораторна робота 7 -->
+                <div class="info-block" id="info7-1">
+                    <h3>Тема: <span>WEB-СХОВИЩЕ. WEB STORAGE API. МОДУЛЬНОСТЬ  КОДУ. СТВОРЕННЯ МОДАЛЬНОГО ВІКНА. ДЕЛЕГУВАННЯ ПОДІЙ.</span></h3>
+                    <h3>Мета: <span>придбати практичні навички роботи створення модального вікна; повторити процес створення макету, зокрема 
+                        створення макету галереї довільних зображень; закріпити навички роботи з делегуванням подій.</span></h3>
+                    <h3>GitHub: <span><a href="https://github.com/pavlush16/my-web-app/tree/main">https://github.com/pavlush16/my-web-app/tree/main</a></span></h3>
+                </div>
+                <div class="info-block" id="info7-2">
+                    <h3>Фрагменти коду</h3>
+                    <div class="code-container">
+                        <pre><code>
+// Web Storage API дозволяє зберігати дані в локальному сховищі браузера.
+localStorage.setItem('username', 'JohnDoe');
+let storedUsername = localStorage.getItem('username');
+console.log(storedUsername); // Результат: JohnDoe
+
+// Делегування подій дозволяє ефективно використовувати події для динамічно створених елементів.
+document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('myClass')) {
+        // Ваш код для обробки кліків на елементи з класом 'myClass'.
+    }
+});                            
+                        </code></pre>        
+                    </div>
+                </div>
+                <div class="info-block" id="info7-3">
+                    <h3>Висновок:</h3>
+                    <p>
+                        Ця лабораторна робота надала нам практичні навички роботи з Web Storage API, що дозволяє зберігати дані на стороні клієнта. Ми навчилися створювати модальні вікна та повторили процес створення макету, зокрема галереї зображень. Робота з делегуванням подій була закріплена, що підвищило нашу здатність створювати більш інтерактивні та користувацькі інтерфейси.
+                    </p>
+                </div>
+
+                <!-- Лабораторна робота 8 | React Course -->
+                <div class="info-block" id="info8-1">
+                    <h3>Сертифікат та оцінка</h3>
+                    <div class="image-container">
+                        <img src="img/react_cer.jpg" alt="Сертифікат">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/react_score.jpg" alt="Оцінка">
+                    </div>
+                </div>
+                <div class="info-block" id="info8-2">
+                    <h3>Тиждень 1</h3>
+                    <div class="image-container">
+                        <img src="img/react_w1_1.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/react_w1_2.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/react_w1_3.png" alt="Test">
+                    </div>
+                </div>
+                <div class="info-block" id="info8-3">
+                    <h3>Тиждень 2</h3>
+                    <div class="image-container">
+                        <img src="img/react_w2_1.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/react_w2_2.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/react_w2_3.png" alt="Test">
+                    </div>
+                </div>
+                <div class="info-block" id="info8-4">
+                    <h3>Тиждень 3</h3>
+                    <div class="image-container">
+                        <img src="img/react_w3_1.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/react_w3_2.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/react_w3_3.png" alt="Test">
+                    </div>
+                </div>
+                <div class="info-block" id="info8-5">
+                    <h3>Тиждень 4</h3>
+                </div>
+
+                <!-- Лабораторна робота 9 | NodeJS Course -->
+                <div class="info-block" id="info9-1">
+                    <h3>Сертифікат та оцінка</h3>
+                    <div class="image-container">
+                        <img src="img/nodejs_cer.jpg" alt="Сертифікат">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_score.jpg" alt="Оцінка">
+                    </div>
+                </div>
+                <div class="info-block" id="info9-2">
+                    <h3>Тиждень 1</h3>
+                    <div class="image-container">
+                        <img src="img/nodejs_w1_1.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w1_2.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w1_3.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w1_4.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w1_5.png" alt="Test">
+                    </div>
+                </div>
+                <div class="info-block" id="info9-3">
+                    <h3>Тиждень 2</h3>
+                    <div class="image-container">
+                        <img src="img/nodejs_w2_1.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w2_2.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w2_3.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w2_4.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w2_5.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w2_6.png" alt="Test">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/nodejs_w2_7.png" alt="Test">
+                    </div>
+                </div>
+                <div class="info-block" id="info9-4">
+                    <h3>Тиждень 3</h3>
+                </div>
         </div>
-
     </div>
 
     <script>
